@@ -1,0 +1,15 @@
+.footer{
+    background-color: #004182;
+    top:50px
+    /* border: 1px solid gray; */
+}
+
+.Instractors a , .Student{
+    color: var(--font-color);
+    letter-spacing: 3px;
+}
+
+.Instractors a:hover ,.Student:hover{
+color: var(--main-color);
+transition: all 0.8s ease-in-out;
+}

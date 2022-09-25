@@ -1,0 +1,17 @@
+.moive h3{
+    color: var(--font-color);
+}
+
+
+.page-item{
+    cursor: pointer;
+}
+
+.notActive{
+    background-color: transparent;
+}
+
+.page-item .active{
+    background-color: black;
+    color: aliceblue;
+}

@@ -1,0 +1,26 @@
+.header-title , .text-title{
+    text-transform: capitalize;
+    position: relative;
+}
+.text-title{
+    color: gray;
+}
+.header-title::before{
+    content: '';
+    position: absolute;
+    top: -40%;
+    left: 0px;
+    width: 20%;
+    height: 2px;
+    background-color: aqua;
+}
+
+.text-title::after{
+    content: '';
+    position: absolute;
+    bottom: -60%;
+    left: 0px;
+    width: 50%;
+    height: 2px;
+    background-color: aqua;
+}
